@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sparkle's Table — Links</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,500;0,600;1,500&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#eddde3;
+    --ink:#830b31;
+    --ink-soft:#8a5568;
+    --line:rgba(79,10,32,0.16);
+  }
+
+  *{ box-sizing:border-box; }
+
+  html,body{
+    margin:0;
+    min-height:100%;
+    background:var(--bg);
+    color:var(--ink);
+  }
+
+  body{
+    font-family:'Space Grotesk', sans-serif;
+    display:flex;
+    justify-content:center;
+    padding:88px 24px 64px;
+  }
+
+  .page{
+    width:100%;
+    max-width:400px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+
+  .mark{
+    font-size:20px;
+    letter-spacing:0.04em;
+    margin-bottom:22px;
+    color:var(--ink);
+  }
+
+  h1{
+    font-family:'Newsreader', serif;
+    font-style:italic;
+    font-weight:600;
+    font-size:clamp(30px, 8vw, 38px);
+    margin:0 0 10px;
+    line-height:1.15;
+  }
+
+  .tagline{
+    font-size:14.5px;
+    color:var(--ink-soft);
+    margin:0 0 48px;
+    line-height:1.6;
+    max-width:280px;
+  }
+
+  .links{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .card{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    width:100%;
+    padding:18px 4px;
+    border-top:1px solid var(--line);
+    text-decoration:none;
+    color:var(--ink);
+    transition:opacity 0.15s ease;
+  }
+  .links .card:last-child{ border-bottom:1px solid var(--line); }
+
+  .card:hover, .card:focus-visible{
+    opacity:0.6;
+    outline:none;
+  }
+  .card:focus-visible{
+    box-shadow:inset 0 0 0 1px var(--ink);
+  }
+
+  .icon{
+    flex:0 0 auto;
+    width:20px;
+    height:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--ink);
+  }
+  .icon svg{ width:18px; height:18px; }
+
+  .label{
+    flex:1 1 auto;
+    text-align:left;
+  }
+  .label .name{
+    display:block;
+    font-size:16px;
+    font-weight:500;
+    margin-bottom:2px;
+  }
+  .label .desc{
+    display:block;
+    font-size:12.5px;
+    color:var(--ink-soft);
+  }
+
+  .go{
+    flex:0 0 auto;
+    font-family:'Newsreader', serif;
+    font-style:italic;
+    font-size:18px;
+    color:var(--ink-soft);
+  }
+
+  footer{
+    margin-top:48px;
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+
+  @media (max-width:360px){
+    body{ padding:64px 18px 48px; }
+  }
+</style>
+</head>
+<body>
+
+  <main class="page">
+    <div class="mark"><img src="https://yt3.googleusercontent.com/FTiJf-Wij3jULevDgrAjgPEerSNHssAhpCygRyRb46xinhNWyJeYkXQHGkZNR9goyYoqxhLAH1w=s160-c-k-c0x00ffffff-no-rj" alt="✦" style="border-radius: 13px"></div>
+
+    <h1>Licoy Links</h1>
+    <p class="tagline"></p>
+
+    <nav class="links" aria-label="Channel links">
+      
+      <a class="card" href="https://ko-fi.com/licoy" target="_blank" rel="noopener">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 5h15.5a3.7 3.7 0 0 1 0 7.4h-1a5.6 5.6 0 0 1-5.4 4.2H8.3L7 21H4l1.6-9H2Zm3.9 2-1 5.6h3.7a3.6 3.6 0 0 0 3.5-2.8H8.6l.4-2.8Zm10.6 0h-1.4l-.6 3.4h1a1.7 1.7 0 0 0 1-3.4Z"/></svg>
+        </span>
+        <span class="label">
+          <span class="name">Ko-fi</span>
+          <span class="desc">Support the channel</span>
+        </span>
+        <span class="go">→</span>
+      </a>
+      <a class="card" href="https://www.youtube.com/@Lico_y" target="_blank" rel="noopener">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.4 3.5 12 3.5 12 3.5s-7.4 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2 .6 9.4.6 9.4.6s7.4 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4L15.8 12Z"/></svg>
+        </span>
+        <span class="label">
+          <span class="name">YouTube</span>
+          <span class="desc">Main channel</span>
+        </span>
+        <span class="go">→</span>
+      </a>
+
+      
+      
+      <a class="card" href="https://www.twitch.tv/lico_y" target="_blank" rel="noopener">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 2 2 6.6v13h6.4V22h3.4l3.2-3.4h4.9L22 16.4V2Zm16 13.4-2.6 2.6h-4.9L9.3 21H8v-2.6H3.4V7.4L4.9 4H20ZM17.4 8h-2v5.4h2Zm-5.4 0h-2v5.4h2Z"/></svg>
+        </span>
+        <span class="label">
+          <span class="name">Twitch</span>
+          <span class="desc">Live streams</span>
+        </span>
+        <span class="go">→</span>
+      </a>
+      <a class="card" href="https://livepix.gg/licoy" target="_blank" rel="noopener">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6Zm0 4.6 2 3.9h4l-3.2 2.8L16 17l-4-2.6L8 17l1.2-3.7L6 10.5h4Z"/></svg>
+        </span>
+        <span class="label">
+          <span class="name">LivePix</span>
+          <span class="desc">Send a tip</span>
+        </span>
+        <span class="go">→</span>
+      </a>
+      
+      
+      <a class="card" href="https://x.com/Licorriced_" target="_blank" rel="noopener">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.2 2h3.3l-7.2 8.3L22.8 22h-6.7l-5.2-6.8L4.9 22H1.6l7.7-8.9L1 2h6.8l4.7 6.2Zm-1.2 18h1.8L7.1 4H5.2Z"/></svg>
+        </span>
+        <span class="label">
+          <span class="name">X</span>
+          <span class="desc">Updates and posts</span>
+        </span>
+        <span class="go">→</span>
+      </a>
+      <a class="card" href="https://discord.com/invite/bZuXvDPc6t" target="_blank" rel="noopener">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.3 4.4H3.7a1.7 1.7 0 0 0-1.7 1.7v9.7A1.7 1.7 0 0 0 3.7 17.5h4.9L12 21l3.4-3.5h4.9a1.7 1.7 0 0 0 1.7-1.7V6.1a1.7 1.7 0 0 0-1.7-1.7ZM8.4 13.6a2.2 2.2 0 1 1 0-4.4 2.2 2.2 0 0 1 0 4.4Zm7.2 0a2.2 2.2 0 1 1 0-4.4 2.2 2.2 0 0 1 0 4.4Z"/></svg>
+        </span>
+        <span class="label">
+          <span class="name">Discord</span>
+          <span class="desc">Join the community</span>
+        </span>
+        <span class="go">→</span>
+      </a>
+      
+    </nav>
+    
+  </main>
+  
+</body>
+</html>
